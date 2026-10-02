@@ -1,0 +1,43 @@
+body {
+    font-family: monospace;
+
+    color: oklch(0.7 0.1455 158.82);
+    background-color: oklch(0.1 0.1455 158.82);
+
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    left: auto;
+    top: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 1.5rem;
+}
+
+li a {
+    display: flex;
+    align-items: center;
+    justify-content:first baseline;
+    padding: .5rem 0;
+}
+
+a p {
+    padding: 0 .5rem;
+}
+
+svg {
+    fill: oklch(0.7 0.1455 158.82);
+}
